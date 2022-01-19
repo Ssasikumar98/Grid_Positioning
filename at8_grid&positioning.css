@@ -171,20 +171,20 @@
     display: grid;
     grid-template-columns: 65% 35%;
     column-gap: 10px;
-    margin-top: 50px;
 }
 .about_row3_img{
     width: 250px;
     height: 250px;
 }
-.about_row3 h2{
+.ourmanagement_header h2{
+    margin-top: 40px;
     text-transform: uppercase;
     color: #E9B144 ;
     font-weight: lighter;
 }
-.ourmanagement_col1{
+.ourmanagement_col1{ 
     margin-top: 40px;
-}
+} 
 
 
 /*  SERVICES  */
@@ -468,12 +468,10 @@
 
 
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {  
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {  
     .left-section{
     width: 100%;
-    /* position: fixed; */
     background-color: #4B5056;
-    /* height: 100%; */
 }
 /*  LOGO */
 .left-logo{
@@ -516,8 +514,6 @@
 /* |---------------| */
 
 .right-section{
-    /* width: 80%; */
-    /* margin-left: 20%;  */
     width: 100%;
 }
 
@@ -572,21 +568,20 @@
 /*  ABOUT US  */
 
 .aboutus{
-    margin-left: 10%;
     margin-right: 10%;
+    margin-left: 10%;
     position: relative;
-    border-top: 10px solid #E9B144 ;
 }
 
 /*  row1 header  */
 
 .about_us_header{
     background-color: #E9B144;
+    margin-bottom: 20px;
     padding: 10px;
-    width: 45%;
+    width: 100%;
     height: 50px;
-    margin-top: -1px;
-    margin-bottom: 50px;
+    margin-top: -2px;
     text-align: center;
     color: white;
     font-weight: 300;
@@ -595,15 +590,11 @@
 /* row2 profile */
 
 .aboutus-profile{
-    /* display: grid; */
-    /* grid-template-columns: 33.333333% 33.333333% 33.333333%; */
     align-items: center;
-    /* padding-top: 10px; */
-    /* padding-bottom: 10px; */
 }
 .aboutus-profile img{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
 .grid-card{
     text-align: center;
@@ -625,17 +616,23 @@
 .about_row3{
     display: grid;
     align-items: baseline;
-    margin-top: 50px;
+    margin-top: 30px;
 }
-
 .about_row3_img{ 
     height: 250px;
     padding: 15px;
 } 
-.about_row3 h2{
+.ourmanagement_header h2{
     text-transform: uppercase;
     color: #E9B144 ;
     font-weight: lighter;
+}
+.ourmanagement_col1{
+    width: 100%;
+} 
+.ourmanagement_col2 img{
+    height: 200px;
+    width: 200px;
 }
 
 
@@ -651,13 +648,13 @@
 /* row1 header */
 
 .services_header{
+    background: #9353E7;
     padding: 10px;
-    width: 45%;
+    width: 100%;
     height: 50px;
     margin-top: -1px;
     text-align: center;
     color: white;
-    background: #9353E7;
     font-weight: 300;
 }
 
@@ -666,8 +663,6 @@
 .services_row2{
     display: grid;
     row-gap: 10px;
-    /* grid-template-columns: 30% 30% 30%; */
-    /* justify-content: space-between; */
     width: 100%;
     margin-top: 40px;
     margin-bottom: 30px;
@@ -687,9 +682,7 @@
 
 .services_row3{
     display: grid;
-    /* grid-template-columns: 60% 40%; */
     row-gap: 20px;
-    /* margin: auto; */
     align-items: baseline;
     margin-top: 10px;
 }
@@ -741,7 +734,7 @@
 
 .portfolio_header{
     padding: 10px;
-    width: 45%;
+    width: 100%;
     height: 50px;
     margin-top: -1px;
     margin-bottom: 50px;
@@ -755,9 +748,6 @@
 
 .portfolio_row2{
     display: grid;
-    /* grid-template-columns: auto auto auto; */
-    /* justify-content: space-between; */
-    /* column-gap: 10px; */
     row-gap: 30px;
 }
 .portfolio_row2 img{
@@ -811,7 +801,7 @@
 
 .contact_header{
     padding: 10px;
-    width: 45%;
+    width: 100%;
     height: 50px;
     margin-top: -1px;
     margin-bottom: 50px;
@@ -841,10 +831,8 @@
 
 .contact_row3_details{
     display: grid;
-    /* grid-template-columns: auto auto auto; */
     justify-content: space-between;
     column-gap: 10px;
-    /* margin-bottom: 50px; */
 }
 .contact_row3_details span{
     color: red;
@@ -865,7 +853,6 @@
 }
 .sendmessage_button{
     text-align: center;
-    /* margin: 30px 0px 20px 0px; */
 }
 
 
