@@ -624,6 +624,7 @@
 
 .about_row3{
     display: grid;
+    align-items: baseline;
     margin-top: 50px;
 }
 
