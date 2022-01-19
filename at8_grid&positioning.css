@@ -454,7 +454,7 @@
 
         /* |******************| */
         /* |                  | */
-        /* | SCREEN 320 - 767 | */
+        /* | SCREEN 320 - 600 | */
         /* |                  | */
         /* |******************| */
         
@@ -468,7 +468,7 @@
 
 
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {  
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {  
     .left-section{
     width: 100%;
     /* position: fixed; */
