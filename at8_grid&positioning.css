@@ -623,6 +623,7 @@
     padding: 15px;
 } 
 .ourmanagement_header h2{
+    margin-top: 40px;
     text-transform: uppercase;
     color: #E9B144 ;
     font-weight: lighter;
